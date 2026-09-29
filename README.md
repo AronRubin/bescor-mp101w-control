@@ -5,4 +5,5 @@ Reverse engineering the wired TRRS link between the Bescor MP101W pan/tilt head 
 - [docs/findings.md](docs/findings.md) — evidence gathered so far
 - [CONTEXT.md](CONTEXT.md) — glossary
 - [captures/](captures/) — raw Labrador captures
+- [tools/analyze_capture.py](tools/analyze_capture.py) — exploratory analyzer for Labrador CSVs (edges, bit period, bitstream, candidate UART decodes)
 - Planning: the GitHub issue labelled `wayfinder:map`
