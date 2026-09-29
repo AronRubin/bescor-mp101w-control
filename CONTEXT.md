@@ -27,11 +27,11 @@ The TRRS conductor carrying ground.
 _Avoid_: GND pin, sleeve
 
 **Ring 1**:
-The TRRS signal conductor next to the Tip; idles low when the Remote is connected.
+The TRRS signal conductor next to the Tip; idles low when the Remote is connected. Wired to the **B** (inverting) pin of the Remote's RS-485 transceiver.
 _Avoid_: CH1, yellow, DATA, line A
 
 **Ring 2**:
-The TRRS signal conductor next to the Sleeve; idles high when the Remote is connected; carries the complement of Ring 1 during traffic.
+The TRRS signal conductor next to the Sleeve; idles high when the Remote is connected; carries the complement of Ring 1 during traffic. Wired to the **A** (non-inverting) pin of the Remote's RS-485 transceiver.
 _Avoid_: CH2, cyan, /DATA, line B
 
 **Sleeve**:
