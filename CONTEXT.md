@@ -41,3 +41,7 @@ _Avoid_: VCC, supply ring
 **Capture**:
 A recording of Ring 1 and/or Ring 2 that spans idle before, the complete traffic of one button action, and idle after.
 _Avoid_: snapshot, trace, export
+
+**Tap log**:
+A recording of the bytes the Remote's MCU transmits, taken from the DI net (the transceiver's driver input) rather than from Ring 1 / Ring 2; complete for one button action.
+_Avoid_: capture, sniff
