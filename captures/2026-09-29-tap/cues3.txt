@@ -1,0 +1,20 @@
+# label|seconds until next cue|instruction spoken to the operator
+ready|6|Logging started. Get ready
+idle|5|Hands off
+tap_up|10|Tap the Jog Up button once, short
+tap_down|10|Tap the Jog Down button once, short
+tap_left|10|Tap the Jog Left button once, short
+tap_right|10|Tap the Jog Right button once, short
+spin_left_start|15|Press spin Left once. Watch what the head does
+spin_left_stop|15|Now stop the spin. Remember how you stopped it
+spin_right_start|15|Press spin Right once. Watch what the head does
+spin_right_stop|15|Now stop the spin. Remember how you stopped it
+zero_1|15|Press zero degrees once. Watch what the head does
+spin_left_again|15|Press spin Left once again, and do nothing else
+spin_left_stop2|15|Now stop the spin
+speed_up_1|6|Press speed up once
+speed_up_2|8|Press speed up once more
+unplug|10|Unplug the cable from the head, and wait for the next cue
+replug|8|Plug the cable back in. Press nothing
+tap_after|10|Tap Jog Right once, short
+end|3|Done

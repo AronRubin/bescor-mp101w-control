@@ -1,0 +1,48 @@
+# label|seconds until next cue|instruction shown to the operator
+ready|6|Logging started. Get ready at the remote
+idle_start|8|Hands off
+hold_up_1_start|4|Press and hold Jog Up
+hold_up_1_release|4|Release Jog Up
+hold_up_2_start|4|Press and hold Jog Up
+hold_up_2_release|4|Release Jog Up
+hold_up_3_start|4|Press and hold Jog Up
+hold_up_3_release|4|Release Jog Up
+hold_down_1_start|4|Press and hold Jog Down
+hold_down_1_release|4|Release Jog Down
+hold_down_2_start|4|Press and hold Jog Down
+hold_down_2_release|4|Release Jog Down
+hold_down_3_start|4|Press and hold Jog Down
+hold_down_3_release|4|Release Jog Down
+hold_left_1_start|4|Press and hold Jog Left
+hold_left_1_release|4|Release Jog Left
+hold_left_2_start|4|Press and hold Jog Left
+hold_left_2_release|4|Release Jog Left
+hold_left_3_start|4|Press and hold Jog Left
+hold_left_3_release|4|Release Jog Left
+hold_right_1_start|4|Press and hold Jog Right
+hold_right_1_release|4|Release Jog Right
+hold_right_2_start|4|Press and hold Jog Right
+hold_right_2_release|4|Release Jog Right
+hold_right_3_start|4|Press and hold Jog Right
+hold_right_3_release|4|Release Jog Right
+spin_left_1_start|4|Press spin Left
+spin_left_1_stop|5|Stop the spin
+spin_left_2_start|4|Press spin Left
+spin_left_2_stop|5|Stop the spin
+spin_left_3_start|4|Press spin Left
+spin_left_3_stop|5|Stop the spin
+spin_right_1_start|4|Press spin Right
+spin_right_1_stop|5|Stop the spin
+spin_right_2_start|4|Press spin Right
+spin_right_2_stop|5|Stop the spin
+spin_right_3_start|4|Press spin Right
+spin_right_3_stop|5|Stop the spin
+zero_1|8|Press zero degrees once
+zero_2|8|Press zero degrees once
+zero_3|8|Press zero degrees once
+power_1_unplug|4|Unplug the cable from the head
+power_1_replug|8|Plug the cable back in. Press nothing
+power_2_unplug|4|Unplug the cable from the head
+power_2_replug|10|Plug the cable back in. Press nothing
+speed_up_max|4|Press speed up once
+end|3|Done
