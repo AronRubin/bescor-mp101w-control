@@ -1,0 +1,10 @@
+{
+  "sample_rate_hz": 375000,
+  "samples": 60000,
+  "pre_samples": 3750,
+  "trigger": {"channel": 1, "edge": "rising", "level_v": 2.5, "hysteresis_v": 0.3},
+  "gain": 4,
+  "mode": "scope2",
+  "frames_bad_checksum": 0,
+  "frames_dropped": 0
+}
