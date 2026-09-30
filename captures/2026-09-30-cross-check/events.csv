@@ -1,0 +1,15 @@
+host_s,label,event
+0.6388,speed_up,armed
+5.2244,speed_up,done exit=0
+10.4428,speed_down,armed
+14.7060,speed_down,done exit=0
+19.8818,jog_right_tap,armed
+24.1087,jog_right_tap,done exit=0
+29.3716,jog_up_hold,armed
+34.7937,jog_up_hold,done exit=0
+39.6755,spin_left,armed
+45.6440,spin_left,done exit=0
+50.8094,zero_deg,armed
+54.4431,zero_deg,done exit=0
+59.6257,idle,armed
+69.7523,idle,done exit=1

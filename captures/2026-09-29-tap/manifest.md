@@ -37,7 +37,7 @@ Cue time to frame time lag is about 4 to 5 s (speech plus reaction).
 
 ## Behaviour
 
-- Frames repeat about every 63 ms. A jog tap sends 2 to 6 command frames; a hold sends command frames for the whole hold (53 to 67 frames for about 3 to 4 s); release sends 20 stop frames.
+- Frames repeat about every 50 ms (49.7 ms measured on the wire in `captures/2026-09-30-cross-check`; an earlier 63 ms figure here was wrong). A jog tap sends 2 to 6 command frames; a hold sends command frames for the whole hold (53 to 67 frames for about 3 to 4 s); release sends 20 stop frames.
 - Speed, Spin and 0 deg presses send 20 frames (about 1.3 s); presses closer together queue and send 40 or 60 frames back to back. No stop frame follows them.
 - Idle: no traffic (silent for 10 s and more). Nothing is sent on power-up or plug-in.
 - The speed level survives a TRRS unplug of at least 10 s.
