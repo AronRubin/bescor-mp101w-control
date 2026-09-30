@@ -1,0 +1,16 @@
+# label|seconds until next cue|instruction spoken to the operator
+ready|6|Logging started. Get ready
+idle|5|Hands off
+diag_up_left|11|Push the joystick to the upper left diagonal, hold for two seconds, then let go. Note how the Head moves
+diag_up_right|11|Push the joystick to the upper right diagonal, hold for two seconds, then let go
+diag_down_left|11|Push the joystick to the lower left diagonal, hold for two seconds, then let go
+diag_down_right|11|Push the joystick to the lower right diagonal, hold for two seconds, then let go
+up_quarter|11|Push the joystick up just a little, about a quarter of the way, and hold for two seconds, then let go
+up_half|11|Push the joystick up about half way, and hold for two seconds, then let go
+up_full|11|Push the joystick fully up, and hold for two seconds, then let go
+ramp_up|12|Push the joystick up slowly from centre to full over three seconds, hold one second, then let go
+offcentre|12|Push the joystick fully up, then ease it back to about half way and hold for two seconds, then let go
+cross_lr|12|Push the joystick fully left, then swing it straight across to fully right without stopping in the middle, hold two seconds, then let go
+cross_ud|12|Push the joystick fully up, then swing it straight across to fully down without stopping in the middle, hold two seconds, then let go
+circle|12|Hold the joystick fully out and trace one slow full circle around the edge over four seconds, then let go
+end|3|Done

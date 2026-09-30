@@ -1,0 +1,44 @@
+722 frames, 58 stray/bad bytes
+--- burst 1 @ 16.039s
+     16.039s   52 x ff 01 00 12 4f 4f b1
+     18.683s   20 x ff 01 00 00 00 00 01
+--- burst 2 @ 27.834s
+     27.834s   61 x ff 01 00 12 4f 4f b1
+     30.918s   20 x ff 01 00 00 00 00 01
+--- burst 3 @ 38.539s
+     38.539s  100 x ff 01 00 12 4f 4f b1
+     43.514s   20 x ff 01 00 00 00 00 01
+--- burst 4 @ 48.490s
+     48.490s  151 x ff 01 00 14 4f 4f b3
+     56.005s   20 x ff 01 00 00 00 00 01
+     57.906s   34 x ff 01 00 10 00 4f 60
+     59.584s   15 x ff 01 00 00 00 00 01
+     60.335s    3 x ff 01 00 10 00 4f 60
+     60.479s   37 x ff 01 00 04 4f 00 54
+     62.329s   27 x ff 01 00 10 00 4f 60
+     63.666s    7 x ff 01 00 04 4f 00 54
+     64.017s    1 x ff 01 00 10 00 4f 60
+     64.065s   20 x ff 01 00 00 00 00 01
+     65.407s    9 x ff 01 00 10 00 4f 60
+     65.854s  105 x ff 01 00 04 4f 00 54
+     71.083s   20 x ff 01 00 00 00 00 01
+  bad byte 00 @ 16.051s
+  bad byte 00 @ 16.051s
+  bad byte c0 @ 16.067s
+  bad byte 00 @ 16.075s
+  bad byte b2 @ 16.102s
+  bad byte 10 @ 16.104s
+  bad byte 00 @ 16.104s
+  bad byte 1d @ 16.106s
+  bad byte 00 @ 16.107s
+  bad byte 78 @ 16.112s
+  bad byte 8c @ 16.112s
+  bad byte ff @ 16.112s
+  bad byte 00 @ 27.834s
+  bad byte 00 @ 27.848s
+  bad byte 00 @ 27.848s
+  bad byte f8 @ 27.872s
+  bad byte 00 @ 27.872s
+  bad byte 00 @ 27.888s
+  bad byte f8 @ 27.897s
+  bad byte 00 @ 27.897s

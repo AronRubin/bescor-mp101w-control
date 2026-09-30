@@ -1,0 +1,10 @@
+# label|seconds until next cue|instruction spoken to the operator
+ready|6|Logging started. Get ready
+idle|4|Hands off
+up_left_1|10|Push the joystick firmly to the upper left diagonal, hold for two seconds, then let go
+up_left_2|10|Push the joystick firmly to the upper left diagonal, hold for two seconds, then let go
+up_left_3|10|Push the joystick firmly to the upper left diagonal, hold for two seconds, then let go
+up_right_1|10|Push the joystick firmly to the upper right diagonal, hold for two seconds, then let go
+up_right_2|10|Push the joystick firmly to the upper right diagonal, hold for two seconds, then let go
+up_right_3|10|Push the joystick firmly to the upper right diagonal, hold for two seconds, then let go
+end|3|Done

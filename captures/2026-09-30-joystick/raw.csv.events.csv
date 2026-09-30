@@ -1,0 +1,16 @@
+host_s,label
+2.0045,ready
+8.0041,idle
+13.0044,diag_up_left
+24.0046,diag_up_right
+35.0051,diag_down_left
+46.0060,diag_down_right
+57.0059,up_quarter
+68.0060,up_half
+79.0079,up_full
+90.0085,ramp_up
+102.0099,offcentre
+114.0013,cross_lr
+126.0107,cross_ud
+138.0105,circle
+150.0054,end
