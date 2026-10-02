@@ -1,0 +1,13 @@
+# label|probe_frames arguments after the port|spoken text   (group 2b: deadman, single stop, extreme speeds, speed-set)
+deadman|"00 04 17 00" --repeat 3 --listen 1 --wait 4 --stop 20|Jog right for only three frames, then silence for five seconds. Does the Head keep moving, or stop on its own, and how soon
+return_a|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+single_stop_jog|"00 04 17 00" --repeat 30 --listen 0.2 --stop 1|Jog right, then send only ONE stop frame. Does the Head stop. Keep watching for the next step too
+safety_stop|"00 00 00 00" --repeat 20 --listen 1|Safety stop frames follow. Note whether the Head was still moving before they arrived
+return_b|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+speed00|"00 04 00 00" --repeat 30 --listen 2 --stop 20|Jog right with speed zero. Does the Head move, slowly, or not at all
+return_c|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+speed6f|"00 04 6f 00" --repeat 20 --listen 2 --stop 20|Jog right with speed six f, above the Remote range, for one second. Does it move faster than the baseline
+return_d|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+speedset|"08 1c 00 5f" --repeat 20 --listen 1|Speed set frame to five f. Does anything happen at all
+after_speedset|"00 04 17 00" --repeat 30 --listen 2 --stop 20|Baseline jog right, speed seventeen again. Is it faster than the baseline earlier
+return_e|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch

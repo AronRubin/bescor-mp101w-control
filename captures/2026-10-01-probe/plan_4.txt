@@ -1,0 +1,16 @@
+# label|probe_frames arguments after the port|spoken text   (group 4: other 08 03 values, Spin from a Controller, safe Pelco queries)
+sweep90|"08 03 00 5a" --repeat 40 --listen 8|Ninety degree frame. Does the Head sweep, and over what range
+zero_a|"08 03 00 00" --repeat 20 --listen 4|Zero frames. Does the sweep end
+sweep340|"08 03 01 54" --repeat 40 --listen 8|Three hundred forty degree frame. Does the Head sweep
+zero_b|"08 03 00 00" --repeat 20 --listen 4|Zero frames. Does the sweep end
+sweep180|"08 03 00 b4" --repeat 40 --listen 8|One hundred eighty degree frame, a value the Remote never sends. Does the Head do anything
+zero_c|"08 03 00 00" --repeat 20 --listen 4|Zero frames
+sweep30|"08 03 00 1e" --repeat 40 --listen 6|Thirty degree frame, another value the Remote never sends. Does the Head do anything
+zero_d|"08 03 00 00" --repeat 20 --listen 4|Zero frames
+spin_left|"08 03 01 69" --repeat 20 --listen 8|Spin left frame from the Controller. Does the Head spin continuously
+zero_e|"08 03 00 00" --repeat 20 --listen 5|Zero frames. Does the spin end
+code363|"08 03 01 6b" --repeat 20 --listen 6|Frame for three sixty three, just above the spin codes. Does the Head do anything
+zero_f|"08 03 00 00" --repeat 20 --listen 4|Zero frames. If anything is still moving, switch off the Head
+pelco_q_pan|"00 51 00 00" --repeat 3 --listen 1.5 --stop 5|Pelco pan position query. Does the Head move at all
+pelco_q_tilt|"00 53 00 00" --repeat 3 --listen 1.5 --stop 5|Pelco tilt position query. Does the Head move at all
+pelco_set_pan0|"00 4b 00 00" --repeat 3 --listen 3 --stop 5|Pelco set pan position, zero. Does the Head turn to its zero mark

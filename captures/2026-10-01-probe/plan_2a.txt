@@ -1,0 +1,9 @@
+# label|probe_frames arguments after the port|spoken text   (low speed jogs, 30 frames = 1.5 s, return left after each test)
+tol_baseline_right17|"00 04 17 00" --repeat 30 --listen 2 --stop 20|Jog right, address one, speed seventeen, the baseline. Watch the Head turn
+return_1|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+tol_addr02|"00 04 17 00" --addr 2 --repeat 30 --listen 2 --stop 20|Jog right, but with address two. Does the Head move
+return_2|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+tol_speed1c|"00 04 1c 00" --repeat 30 --listen 2 --stop 20|Jog right, address one, speed one c, between the Remote levels. Does the Head move, and is it faster
+return_3|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch
+tol_speed10|"00 04 10 00" --repeat 30 --listen 2 --stop 20|Jog right, address one, speed ten, below the Remote range. Does the Head move, and is it slower
+return_4|"00 02 17 00" --repeat 30 --listen 2 --stop 20|Return left. No need to watch

@@ -1,0 +1,11 @@
+# label|probe_frames arguments after the port|spoken text   (group 3: 08 03 angle frames and what ends a sweep)
+zero|"08 03 00 00" --repeat 20 --listen 6|Zero degree frame. Does the Head turn to its zero mark and stop
+angle5|"08 03 00 05" --repeat 40 --listen 8|Frame for five degrees. Does the Head move five degrees and stop, sweep over about five degrees, or do nothing
+stop_after_angle5|"00 00 00 00" --repeat 20 --listen 4|Stop frames. Does any movement end
+sweep45_a|"08 03 00 2d" --repeat 40 --listen 8|Frame for forty five degrees. Does the Head sweep back and forth. Let it run
+stop_ends_sweep|"00 00 00 00" --repeat 20 --listen 5|Stop frames. Does the sweep end
+sweep45_b|"08 03 00 2d" --repeat 40 --listen 8|Forty five degree frame again. Let it sweep
+zero_ends_sweep|"08 03 00 00" --repeat 20 --listen 6|Zero degree frames. Does the sweep end, and does the Head go to zero
+sweep45_c|"08 03 00 2d" --repeat 40 --listen 8|Forty five degree frame a third time. Let it sweep
+jog_ends_sweep|"00 02 17 00" --repeat 20 --listen 1 --stop 20|Jog left frames. Does the sweep end, and does the Head jog
+final_zero|"08 03 00 00" --repeat 20 --listen 6|Final zero degree frames. If the Head is still sweeping now, switch it off with its power switch

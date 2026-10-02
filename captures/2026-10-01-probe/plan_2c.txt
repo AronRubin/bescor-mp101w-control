@@ -1,0 +1,5 @@
+# label|probe_frames arguments after the port|spoken text   (group 2c: deadman retest, longer burst at a visible speed)
+deadman12|"00 04 4f 00" --repeat 12 --listen 1 --wait 5 --stop 20|Jog right at a faster speed for twelve frames, then silence for six seconds. Does the Head keep moving after the frames stop, or stop on its own, and how soon
+return_f|"00 02 4f 00" --repeat 12 --listen 1 --wait 1 --stop 20|Return left. No need to watch
+deadman30|"00 04 4f 00" --repeat 30 --listen 1 --wait 5 --stop 20|Jog right at the same speed for thirty frames, then silence for six seconds. Does the Head keep moving after the frames stop, or stop on its own
+return_g|"00 02 4f 00" --repeat 30 --listen 1 --wait 1 --stop 20|Return left. No need to watch
