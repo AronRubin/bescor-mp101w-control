@@ -46,6 +46,10 @@ _Avoid_: snapshot, trace, export
 A recording of the bytes the Remote's MCU transmits, taken from the DI net (the transceiver's driver input) rather than from Ring 1 / Ring 2; complete for one button action.
 _Avoid_: capture, sniff
 
+**Wire log**:
+A recording of the bytes an RS-485 receiver decodes from Ring 1 / Ring 2 (A+ on Ring 2, B- on Ring 1), complete for one button action; authoritative where it differs from a Tap log.
+_Avoid_: capture, sniff, trace
+
 **Frame**:
 One complete message from the Remote: a sync byte, address, command and data bytes, and a checksum.
 _Avoid_: packet, message
