@@ -1,0 +1,13 @@
+host_s,label
+2.0012,ready
+8.0008,idle
+13.0025,p45_first
+33.0091,p45_second
+53.0078,home1
+68.0036,p90_first
+88.0095,p90_second
+108.0122,home2
+123.0152,p340_first
+148.0038,p340_second
+173.0087,home3
+188.0089,done

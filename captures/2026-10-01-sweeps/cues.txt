@@ -1,0 +1,13 @@
+# label|seconds until next cue|instruction spoken to the operator
+ready|6|Logging started. Get ready
+idle|5|Hands off
+p45_first|20|Press the 45 degree button once. Let the Head move. Do not touch anything
+p45_second|20|Press the 45 degree button again. Note what the Head does
+home1|15|Press the 0 degree button once and wait
+p90_first|20|Press the 90 degree button once. Let the Head move. Do not touch anything
+p90_second|20|Press the 90 degree button again. Note what the Head does
+home2|15|Press the 0 degree button once and wait
+p340_first|25|Press the 340 degree button once. Let the Head move. Do not touch anything
+p340_second|25|Press the 340 degree button again. Note what the Head does
+home3|15|Press the 0 degree button once and wait
+done|3|Finished. Logging stops
