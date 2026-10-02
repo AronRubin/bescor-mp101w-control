@@ -1,6 +1,6 @@
 # Bescor MP101W wired-control reverse engineering — findings to date
 
-Snapshot of the research handoff that started this effort (2026-09). Later decisions live in the GitHub issues of this repo; this file is the starting evidence, not the spec.
+**Superseded by [spec.md](spec.md).** Snapshot of the research handoff that started this effort (2026-09). Later decisions live in the GitHub issues of this repo; this file is the starting evidence, not the spec, and some of its hypotheses (UART reading, "do not call it RS-485") were settled later.
 
 No public MP101W protocol specification, open-source library, or useful teardown has been found. Existing MP-101 reverse-engineering projects apply to the older model and are electrically different.
 
