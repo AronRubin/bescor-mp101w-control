@@ -45,3 +45,7 @@ _Avoid_: snapshot, trace, export
 **Tap log**:
 A recording of the bytes the Remote's MCU transmits, taken from the DI net (the transceiver's driver input) rather than from Ring 1 / Ring 2; complete for one button action.
 _Avoid_: capture, sniff
+
+**Frame**:
+One complete message from the Remote: a sync byte, address, command and data bytes, and a checksum.
+_Avoid_: packet, message
